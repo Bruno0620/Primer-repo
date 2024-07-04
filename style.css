@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .contenido{
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+  #zona1{
+    background-image: url(JPG/landingpage.jpg);
+    background-color: cover;
+    align-items: center;
+  }
+  #zona2{
+    background-image: url(JPG/porsche.jpg);
+    background-color: cover;
+  }
+  #_1930{
+    background-image: url(JPG/1930.jpg);
+    background-color: cover;
+  }
+  #_1940{
+    background-image: url(JPG/1940.jpg);
+    background-color: cover;
+  }
+  #_1950{
+    background-image: url(JPG/1950.jpg);
+    background-color: cover;
+  }
+  #_1960{
+    background-image: url(JPG/1960.jpg);
+    background-color: cover;
+  }
+  #_1970{
+    background-image: url(JPG/1970.jpg);
+    background-color: cover;
+  }
+  #_1980{
+    background-image: url(JPG/1980.jpg);
+    background-color: cover;
+  }
+  #_1990{
+    background-image: url(JPG/1990.jpg);
+    background-color: cover;
+  }
+  #_2000{
+    background-image: url(JPG/2000.jpg);
+    background-color: cover;
+  }
+  #_2010{
+    background-image: url(JPG/2010.jpg);
+    background-color: cover;
+  }
+  #_2020{
+    background-image: url(JPG/2020.jpg);
+    background-color: cover;
+  }
+  
+  /*star*/
+  div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 100px;
+  }
+  a{
+    border: 1px solid #6a0b0b;
+    text-decoration: none;
+    color: #6a0b0b;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 2px;
+  }
+  a:hover{
+    background-color: #6a0b0b;
+    color: white;
+    transition: all 0.5s;
+  }
+  /*menu*/
+  nav{
+    z-index: 3;
+    position: fixed;
+    left: 200px;
+    top: 35px;
+    transform: translateX(-100px);
+    transition: 0.5s ease;
+  }
+  ul{
+    list-style: none;
+  }
+  ul a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+  ul a:hover{
+    transform: tarnslateX(10%);
+  }
